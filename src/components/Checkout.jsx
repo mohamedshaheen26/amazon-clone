@@ -8,7 +8,6 @@ import emptyCart from "../assets/emptyCart.svg";
 
 const Checkout = () => {
   const { user, cart } = useAuth();
-  console.log(cart);
 
   return cart?.length > 0 ? (
     <div className='checkout'>
@@ -16,12 +15,10 @@ const Checkout = () => {
         <img className='checkout-ad' src={checkoutAd} alt='checkout-ad' />
         <div>
           <h3>Hello, {user?.email || "Guest"}</h3>
+          <h2>Your Shopping Cart</h2>
 
           {cart?.map((product) => (
-            <>
-              <h2>Your Shopping Cart</h2>
-              <CheckoutProduct key={product.id} product={product} />
-            </>
+            <CheckoutProduct key={product.id} product={product} />
           ))}
         </div>
       </div>

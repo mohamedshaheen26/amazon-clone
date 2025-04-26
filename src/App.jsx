@@ -7,9 +7,16 @@ import Login from "./components/login";
 import Home from "./components/Home";
 import Checkout from "./components/Checkout";
 import Payment from "./components/Payment";
+import Orders from "./components/Orders";
+import { loadStripe } from "@stripe/stripe-js";
+import { Elements } from "@stripe/react-stripe-js";
 
 function App() {
   const { dispatch } = useAuth();
+  const stripePromise = loadStripe(
+    "pk_test_51RIBBgRWO12b2ekiGcXz5dYrH56HlXjPWU0SBGwaOa32cDY1pK4ajUW5qqjgxVLP70wluUXPhPZ9trBoGL9bJj0T00QCkVJiSH"
+  );
+
   useEffect(() => {
     auth.onAuthStateChanged((authUser) => {
       if (authUser) {
@@ -52,7 +59,18 @@ function App() {
           element={
             <>
               <Header />
-              <Payment />
+              <Elements stripe={stripePromise}>
+                <Payment />
+              </Elements>
+            </>
+          }
+        />
+        <Route
+          path='/orders'
+          element={
+            <>
+              <Header />
+              <Orders />
             </>
           }
         />

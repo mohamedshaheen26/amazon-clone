@@ -5,7 +5,7 @@ import halfStarIcon from "../assets/icons/half-star.png";
 import emptyStarIcon from "../assets/icons/empty-star.png";
 import { useAuth } from "../context/GlobalState";
 
-const CheckoutProduct = ({ product }) => {
+const CheckoutProduct = ({ product, hiddenButton }) => {
   const { dispatch } = useAuth();
 
   const removeFromCart = () => {
@@ -44,7 +44,9 @@ const CheckoutProduct = ({ product }) => {
             </p>
           ))}
         </div>
-        <button onClick={removeFromCart}>Remove from Cart</button>
+        {!hiddenButton && (
+          <button onClick={removeFromCart}>Remove from Cart</button>
+        )}
       </div>
     </div>
   );
