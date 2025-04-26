@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Headphones",
+    "description": "Noise-cancelling headphones with 30 hours of battery life.",
+    "price": 120.99,
+    "rating": 4.5,
+    "category": "Electronics",
+    "image": "/imgs/headphones.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Smartphone XR",
+    "description": "Latest smartphone with powerful camera and fast processor.",
+    "price": 899.99,
+    "rating": 4.7,
+    "category": "Electronics",
+    "image": "/imgs/smartphone.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Running Shoes",
+    "description": "Comfortable and lightweight shoes for everyday running.",
+    "price": 75.0,
+    "rating": 4.3,
+    "category": "Footwear",
+    "image": "/imgs/running-shoes.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Men's Leather Wallet",
+    "description": "Durable and stylish wallet with multiple compartments.",
+    "price": 45.5,
+    "rating": 4.0,
+    "category": "Accessories",
+    "image": "/imgs/wallet.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Office Chair",
+    "description": "Ergonomic chair with lumbar support and adjustable height.",
+    "price": 189.0,
+    "rating": 4.2,
+    "category": "Furniture",
+    "image": "/imgs/office-chair.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Coffee Maker",
+    "description": "Automatic coffee machine with built-in grinder.",
+    "price": 129.99,
+    "rating": 4.4,
+    "category": "Home Appliances",
+    "image": "/imgs/coffee-maker.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Gaming Laptop",
+    "description": "High-performance laptop with RTX graphics and 1TB SSD.",
+    "price": 1499.99,
+    "rating": 4.8,
+    "category": "Electronics",
+    "image": "/imgs/gaming-laptop.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Mountain Bike",
+    "description": "Durable bike perfect for trail rides and off-roading.",
+    "price": 499.99,
+    "rating": 4.5,
+    "category": "Sports",
+    "image": "/imgs/mountain-bike.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Stainless Steel Water Bottle",
+    "description": "Keeps your drinks cold for 24 hours and hot for 12 hours.",
+    "price": 25.0,
+    "rating": 4.1,
+    "category": "Accessories",
+    "image": "/imgs/water-bottle.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Yoga Mat",
+    "description": "Non-slip surface, perfect for yoga and exercise sessions.",
+    "price": 35.99,
+    "rating": 4.2,
+    "category": "Fitness",
+    "image": "/imgs/yoga-mat.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Blender Pro 5000",
+    "description": "Professional-grade blender with multiple speed settings.",
+    "price": 210.0,
+    "rating": 4.6,
+    "category": "Home Appliances",
+    "image": "/imgs/blender.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Women's Handbag",
+    "description": "Elegant and spacious handbag for all occasions.",
+    "price": 95.99,
+    "rating": 4.4,
+    "category": "Fashion",
+    "image": "/imgs/handbag.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Smartwatch Pro",
+    "description": "Advanced smartwatch with fitness tracking and GPS.",
+    "price": 259.99,
+    "rating": 4.7,
+    "category": "Electronics",
+    "image": "/imgs/smartwatch.jpg"
+  },
+  {
+    "id": 14,
+    "name": "LED Desk Lamp",
+    "description": "Adjustable brightness and color temperature control.",
+    "price": 49.99,
+    "rating": 4.3,
+    "category": "Furniture",
+    "image": "/imgs/desk-lamp.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Electric Toothbrush",
+    "description": "Rechargeable toothbrush with 5 brushing modes.",
+    "price": 69.99,
+    "rating": 4.5,
+    "category": "Personal Care",
+    "image": "/imgs/electric-toothbrush.jpg"
+  },
+  {
+    "id": 16,
+    "name": "4K Ultra HD TV",
+    "description": "65-inch smart TV with stunning picture quality.",
+    "price": 799.99,
+    "rating": 4.7,
+    "category": "Electronics",
+    "image": "/imgs/4k-tv.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Sunglasses",
+    "description": "Polarized lenses for UV protection and clear vision.",
+    "price": 59.99,
+    "rating": 4.2,
+    "category": "Accessories",
+    "image": "/imgs/sunglasses.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Backpack",
+    "description": "Spacious and durable backpack for school or travel.",
+    "price": 49.0,
+    "rating": 4.3,
+    "category": "Fashion",
+    "image": "/imgs/backpack.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Wireless Keyboard and Mouse",
+    "description": "Slim design with silent keys and long battery life.",
+    "price": 89.0,
+    "rating": 4.4,
+    "category": "Electronics",
+    "image": "/imgs/keyboard-mouse.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Perfume Set",
+    "description": "Luxury perfume set with three unique fragrances.",
+    "price": 120.0,
+    "rating": 4.6,
+    "category": "Personal Care",
+    "image": "/imgs/perfume-set.jpg"
+  }
+]
